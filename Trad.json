@@ -26,10 +26,11 @@
       "vous fuyez le combat sans recuperer vos points de vie",
       "vous ne pouvez pas lancer de sort",
       "Vous avez soigné tous les joueurs et perdez 5 points de mana",
-      "Vous n'avez pas assez de mana pour lancer votre sort"]},
+      "Vous n'avez pas assez de mana pour lancer votre sort",
+    "Dans la vie comme dans les jeux, il est toujours plus simple de se faire aider par ses amis que de tout vouloir faire seul!"]},
     {"phrase" : ["You did ", " Dmg to the monster", "You kill the monster", "you lvl up, and you restore your hp and mana", "the monster have", "HP", "You have", "HP and ", " mana", "you create a new hero : ",
     "impossible to create new hero", "you are a mage", "you already have a class", "you are a knight", "you cannot find monster to attack", "a monster appear : {hp : ", ", attack : ", "there is no monster",
-    "you died, you are now lvl 1 without class", "you regain ", "HP et lose 1 mana", "you have no mana left", "you run away", "you cannot launch your spell", "you heal every allies, but you lose 5 mana", "you have no mana left for your spell"]}
+    "you died, you are now lvl 1 without class", "you regain ", "HP et lose 1 mana", "you have no mana left", "you run away", "you cannot launch your spell", "you heal every allies, but you lose 5 mana", "you have no mana left for your spell", "Don't stay alone if you want to win, in life or in game"]}
   ]
 
 }

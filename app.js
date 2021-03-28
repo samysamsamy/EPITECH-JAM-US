@@ -317,6 +317,36 @@ Client.on("message", (message) => {
         CreateMonster(monsterLvl);
         message.channel.send("EPITECHJAMTEK3REDOUBLEMENT BOSS {hp :" + monster.life + trad.traduction[lang].phrase[16] + monster.Attack + "}")
     }
+    if (message.content === prefix + "Vador")
+    {
+        i = GetHeroInfo(Champions, userId);
+        if (i === -1)
+        {
+            message.channel.send(trad.traduction[lang].phrase[14]);
+            return;
+        }
+        monsterLvl = Champions.Hero[i].lvl;
+        monster = {Lvl : 100, Attack : monsterLvl * 2, life : monsterLvl * 30, alive : true};
+        CreateMonster(monsterLvl);
+        message.channel.send("Vador {hp :" + monster.life + trad.traduction[lang].phrase[16] + monster.Attack + "}")
+    }
+    if (message.content === prefix + "DARKSASUKE")
+    {
+        i = GetHeroInfo(Champions, userId);
+        if (i === -1)
+        {
+            message.channel.send(trad.traduction[lang].phrase[14]);
+            return;
+        }
+        monsterLvl = Champions.Hero[i].lvl;
+        monster = {Lvl : 100, Attack : monsterLvl * 2, life : monsterLvl * 30, alive : true};
+        CreateMonster(monsterLvl);
+        message.channel.send("DARKSASUKE {hp :" + monster.life + trad.traduction[lang].phrase[16] + monster.Attack + "}")
+    }
+    if (message.content === prefix + "help")
+    {
+        message.channel.send(trad.traduction[lang].phrase[26])
+    }
 });
 
-Client.login("ODI1MjgwNzYyOTMxODM5MDE3.YF7omg.wMzMU9rLL5pU6mB6aJLmMFksqVM");
+Client.login("");
