@@ -1,0 +1,35 @@
+{
+  "traduction" :
+  [
+    {"phrase" : ["Vous avez infligé ",
+      " HP au monstre",
+      "Le monstre est mort",
+      "Vous récupérez toute votre vie et votre mana, et gagnez un niveau",
+      "Il reste",
+      "HP au monstre",
+      "Il vous reste ",
+      "HP et ",
+      " mana",
+      "vous creez un nouveau champion : ",
+      "Impossible de creer un nouveau personnage",
+      "Vous êtes desormais un mage",
+      "vous avez deja une classe",
+      "Vous êtes desormais un chevalier",
+      "Vous ne pouvez pas creer de monstre",
+      "Un monstre est apparu : {hp : ",
+      ", Attaque : ",
+      "Il n'y a pas de monstre",
+      "Vous êtes mort et vous retournez au niveau 1",
+      "Vous récupérez ",
+      "points de vie et perdez 1 point de mana",
+      "Vous n'avez plus de mana",
+      "vous fuyez le combat sans recuperer vos points de vie",
+      "vous ne pouvez pas lancer de sort",
+      "Vous avez soigné tous les joueurs et perdez 5 points de mana",
+      "Vous n'avez pas assez de mana pour lancer votre sort"]},
+    {"phrase" : ["You did ", " Dmg to the monster", "You kill the monster", "you lvl up, and you restore your hp and mana", "the monster have", "HP", "You have", "HP and ", " mana", "you create a new hero : ",
+    "impossible to create new hero", "you are a mage", "you already have a class", "you are a knight", "you cannot find monster to attack", "a monster appear : {hp : ", ", attack : ", "there is no monster",
+    "you died, you are now lvl 1 without class", "you regain ", "HP et lose 1 mana", "you have no mana left", "you run away", "you cannot launch your spell", "you heal every allies, but you lose 5 mana", "you have no mana left for your spell"]}
+  ]
+
+}
